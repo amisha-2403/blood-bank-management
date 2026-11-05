@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BloodBank | Contact</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" class="logo">
+          <span class="logo-icon">♥</span>
+          <span class="logo-text">BloodBank</span>
+        </a>
+        <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a class="btn btn-primary" href="register.html">Register</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero small-hero">
+      <div class="container">
+        <span class="section-tag light">Contact Us</span>
+        <h1>Let’s Connect</h1>
+      </div>
+    </section>
+
+    <section class="section contact-section">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <span class="section-tag">BloodBank Support</span>
+          <h2>Need help or a blood request?</h2>
+          <p>
+            Our support team can help you connect with a donor center, schedule a donation, or coordinate a blood request.
+          </p>
+          <div class="contact-cards">
+            <div class="contact-card">
+              <span class="contact-icon">☎</span>
+              <div>
+                <h3>Call Us</h3>
+                <p>+1 (800) 555-0147</p>
+              </div>
+            </div>
+            <div class="contact-card">
+              <span class="contact-icon">✉</span>
+              <div>
+                <h3>Email</h3>
+                <p>support@bloodbank.org</p>
+              </div>
+            </div>
+            <div class="contact-card">
+              <span class="contact-icon">⌕</span>
+              <div>
+                <h3>Location</h3>
+                <p>24 Health Avenue, Donor City</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap">
+          <form class="contact-form">
+            <div class="form-row">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required />
+            </div>
+            <div class="form-row">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required />
+            </div>
+            <div class="form-row">
+              <label for="subject">Subject</label>
+              <select id="subject" name="subject" required>
+                <option value="">Select a topic</option>
+                <option>Donor Registration</option>
+                <option>Blood Request</option>
+                <option>Donation Campaign</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="How can we help?" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <span class="logo-icon">♥</span>
+          <span class="logo-text">BloodBank</span>
+        </a>
+        <p>Connecting donors and patients through safe, reliable blood donation programs.</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <h4>Company</h4>
+          <a href="about.html">About Us</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div>
+          <h4>Support</h4>
+          <a href="login.html">Login</a>
+          <a href="register.html">Register</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 BloodBank. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
